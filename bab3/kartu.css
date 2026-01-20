@@ -1,0 +1,20 @@
+:root {
+    /* Variabel CSS (Cara modern menyimpan warna) */
+    --warna-utama: #2A9D8F;  /* Hijau Tosca */
+    --warna-teks: #264653;   /* Biru Gelap */
+    --warna-bg: #F4A261;     /* Oranye Kalem */
+}
+
+body {
+    background-color: var(--warna-bg);
+    font-family: 'Poppins', sans-serif; /* Sudah pakai Google Font */
+}
+
+h1 {
+    color: var(--warna-teks);
+}
+
+.tombol {
+    background-color: var(--warna-utama);
+    color: white;
+}

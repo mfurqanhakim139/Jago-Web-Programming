@@ -1,0 +1,37 @@
+/* Demo dasar flexbox */
+.container-demo {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.kotak {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+}
+
+/* 2. Flexbox Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+
+    /* PENTING: */
+    display: flex;
+    justify-content: space-between; /* Logo kiri, Menu kanan */
+    align-items: center; /* Agar teks logo & menu sejajar vertikal */
+}
+
+/* 3. Flexbox Menu (Agar li berjejer ke samping) */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 20px; /* Jarak antar menu (Fitur baru CSS modern) */
+}

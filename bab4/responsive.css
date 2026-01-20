@@ -1,0 +1,23 @@
+/* --- STYLE DASAR (HP) --- */
+.container {
+    display: flex;
+    flex-direction: column; /* Tumpuk ke bawah (Default HP) */
+    gap: 10px;
+}
+
+.kartu {
+    background-color: salmon;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- STYLE UNTUK LAPTOP (Layar > 768px) --- */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Ubah jadi baris ke samping */
+    }
+    
+    .kartu {
+        width: 100%; /* Agar lebar terbagi rata */
+    }
+}

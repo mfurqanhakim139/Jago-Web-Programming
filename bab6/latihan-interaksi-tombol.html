@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Studi Kasus JavaScript - Interaksi Tombol</title>
+
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; }
+        h1 { color: black; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1 id="judul">Belajar JavaScript Dasar</h1>
+    <button id="tombol">Klik Saya</button>
+
+    <script>
+        let judul = document.getElementById("judul");
+        let tombol = document.getElementById("tombol");
+
+        tombol.addEventListener("click", function () {
+            judul.innerText = "Judul Berubah Setelah Tombol Diklik";
+            judul.style.color = "blue";
+            console.log("Tombol berhasil ditekan");
+        });
+    </script>
+
+</body>
+</html>

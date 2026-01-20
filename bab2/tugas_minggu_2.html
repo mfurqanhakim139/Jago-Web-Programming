@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas Minggu 2</title>
+</head>
+<body>
+  <header>
+    <h1>Pendaftaran Sekolah</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> | <a href="#">Form</a> | <a href="#">Biaya</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Formulir Pendaftaran</h2>
+      <form>
+        <label>Nama Lengkap:</label><br />
+        <input type="text" name="nama" required /><br /><br />
+
+        <label>Email:</label><br />
+        <input type="email" name="email" required /><br /><br />
+
+        <label>Jenis Kelamin:</label><br />
+        <input type="radio" name="jk" value="L" /> Laki-laki
+        <input type="radio" name="jk" value="P" /> Perempuan
+        <br /><br />
+
+        <label>Alamat:</label><br />
+        <textarea name="alamat" cols="30" rows="4"></textarea><br /><br />
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Daftar Biaya Sekolah</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Item</th>
+            <th>Biaya</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Uang Pendaftaran</td><td>Rp 150.000</td></tr>
+          <tr><td>2</td><td>SPP Bulanan</td><td>Rp 300.000</td></tr>
+          <tr><td>3</td><td>Seragam</td><td>Rp 250.000</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 - Tugas Minggu 2</p>
+  </footer>
+</body>
+</html>

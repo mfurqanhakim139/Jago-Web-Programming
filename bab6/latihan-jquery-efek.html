@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latihan jQuery: Event & Efek</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    #kotak { width: 250px; padding: 20px; border: 2px solid #333; margin-top: 15px; }
+    button { padding: 10px 16px; margin-right: 8px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <h1>Latihan jQuery</h1>
+
+  <button id="btnHide">hide()</button>
+  <button id="btnShow">show()</button>
+  <button id="btnToggle">toggle()</button>
+
+  <div id="kotak">Saya adalah elemen yang bisa disembunyikan/dimunculkan.</div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script>
+    $("#btnHide").click(function(){ $("#kotak").hide(); });
+    $("#btnShow").click(function(){ $("#kotak").show(); });
+    $("#btnToggle").click(function(){ $("#kotak").toggle(); });
+  </script>
+</body>
+</html>

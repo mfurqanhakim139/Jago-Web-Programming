@@ -1,0 +1,29 @@
+/* Mengubah warna latar belakang seluruh halaman */
+body {
+    background-color: #f0f8ff; /* Warna AliceBlue */
+    font-family: Arial, sans-serif;
+}
+
+/* Mengubah judul utama */
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/* Mengubah paragraf */
+p {
+    color: #333;
+    line-height: 1.6; /* Jarak antar baris */
+}
+
+/* Selector ID menggunakan tanda Pagar (#) */
+#judul-spesial {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* Selector Class menggunakan tanda Titik (.) */
+.teks-merah {
+    color: red;
+    font-weight: bold;
+}
